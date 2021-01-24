@@ -39,6 +39,18 @@ public class AdministrationService {
         System.out.println("Where isnt employee with this ID");
     }
 
+
+    public List<Employee> removeEmployeeById2(List<Employee> employees, int id) {
+        for (Employee employee : employees) {
+            if (employee.getEmployeeId() == id) {
+                employees.remove(employee);
+                return employees;
+            }
+        }
+        System.out.println("Where isnt employee with this ID");
+        return employees;
+    }
+
     public void showEmployee(List<Employee> employees, int id) {
         for (Employee employee : employees) {
             if (employee.getEmployeeId() == id) {
