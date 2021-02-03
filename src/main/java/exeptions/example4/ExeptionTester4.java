@@ -6,8 +6,8 @@ public class ExeptionTester4 {
         int[] skaiciai = new int[10];
 
         try {
-            int daliklis = 0;
-            int masyvoElementas = 5;
+            int daliklis = 3;
+            int masyvoElementas = 20;
             int rezultatas = skaiciai[masyvoElementas] / daliklis;
             System.out.println(rezultatas);
         } catch (IndexOutOfBoundsException e) {

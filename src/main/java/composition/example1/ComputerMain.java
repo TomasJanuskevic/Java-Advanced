@@ -31,5 +31,7 @@ public class ComputerMain {
         for (ComputerSet singleUzsakymas : uzsakymas) {
             System.out.println(singleUzsakymas);
         }
+        System.out.println(computerSet.getMonitor().getDisplaySize());
+
     }
 }

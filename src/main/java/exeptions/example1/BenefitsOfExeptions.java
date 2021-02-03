@@ -1,7 +1,7 @@
 package exeptions.example1;
 
 /*
-Exeptions used  to handle runtime errorsso the normal flow of the application can be maintained
+Exeptions used  to handle runtime errors so the normal flow of the application can be maintained
 
 Exeptions is thrown only when preconditions are broken. Something unexpected but known happen
 

@@ -1,6 +1,6 @@
 package composition.example1;
 
-// composition is achieved when we add other variables in the class that references to oyher objects
+// composition is achieved when we add other variables in the class that references to other objects
 
 //galima atskkirai manipuliuoti, keisti arba monitor arba mouse klase nepaveikiant Computerset klases.
 public class ComputerSet {

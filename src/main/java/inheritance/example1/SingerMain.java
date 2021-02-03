@@ -27,6 +27,5 @@ public class SingerMain {
         CicinasChild cicinasChild = new CicinasChild();
         cicinasChild.singLikeCicinas();
 
-
     }
 }
