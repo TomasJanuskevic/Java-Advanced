@@ -5,7 +5,9 @@ MAP - key value pairs, no duplicate keys
  */
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class MapMain {
     public static void main(String[] args) {
@@ -35,6 +37,20 @@ public class MapMain {
         System.out.println(zodynas.get("Suo"));
         zodynas.remove("Kede");
         System.out.println(zodynas);
+
+
+
+        Map <Integer, String> map = new TreeMap<>();
+        map.put(5, "Stalas");
+        map.put(100, "Kede");
+        map.put(45, "Langas");
+        map.put(2, "Stogas");
+
+        for (Map.Entry<Integer, String> integerStringEntry : map.entrySet()) {
+            System.out.println(integerStringEntry.getKey()+ " " + integerStringEntry.getValue());
+        }
+
+
 
     }
 }
